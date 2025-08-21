@@ -1,0 +1,146 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+.logo-1 ul{
+    background-color: black;
+   background-size: covers;
+}
+.logo-1 ul li a{
+    color: rgb(233, 225, 225);
+   text-decoration: none;
+   font-weight:bolder;
+   font-size:18px;
+   margin-left: 16px;
+   padding: 10px;
+}
+.logo-1 ul li{
+    display: inline-block;
+    text-align: right;
+    list-style: none;
+    transform: translate(-38px , -47px);
+    
+}
+.search-box{
+    font-size: 16px;
+    padding:16px 16px;
+    border-radius: 5px;
+    width:450px;
+    height:4px;
+    transform: translate(-45px , -45px);
+}
+.icon{
+    background-color: orange;
+    width:32px;
+    transform: translate(-61px , -35px);
+    border-radius:3px;
+}
+
+.bar ul li  {
+    display: inline-block;
+    text-align: right;
+    list-style: none;
+}
+.bar ul li a{
+    color: rgb(225, 230, 233);
+   text-decoration: none;
+   font-weight:lighter;
+   font-size:18px;
+   padding: 20px;
+   margin-left: 18px;
+}
+.bar ul{
+    background-color: rgb(16, 31, 31);
+}
+.shop {
+    margin:100px;
+}
+
+.fa-bars{
+    transform: translate(40px , 0.5px);
+    width:14px ;
+    position:relative;
+    color:white;
+}
+.fa-shopping-cart{
+    color:white;
+    transform: translate(-10px , -50px);
+}
+.hero{
+    background-size:cover;
+    width:100%;
+}
+.col-1{width:8.33% }
+.col-2{width:16.66% }
+.col-3{width:25% }
+.col-4{width:33.33% }
+.col-5{width: 41.66%}
+.col-6{width: 50%}
+.col-7{width: 58.33%}
+.col-8{width: 66.66%}
+.col-9{width: 75%}
+.col-10{width: 83.33%}
+.col-11{width: 91.66%}
+.col-12{width: 100%}
+
+.row::after{
+    content:"";
+ clear:both;
+ display:table;
+ padding: 20px;
+}
+[class*="col-"]{
+    float:left;
+    padding: 15px;
+}
+.container{
+padding-left:15px;
+padding-right:15px;
+margin-right:auto;
+margin-left:auto;
+}
+@media(min-width: 768px){
+    .container{
+        width:740;
+    }
+    }
+    @media(min-width: 992px){
+        .container{
+            width:960;
+        }
+    }
+    @media(min-width: 1200px){
+        .container{
+            width:1162;
+        }
+    }
+    .shop-section{
+        display:flex;
+    }
+    .box{
+border:2px solid white;
+height:400px;
+width:23%;
+margin-left: 15px;
+padding:20px 12px 15px;
+position:relative;
+transform: translate(30px,-350px);
+background-color: aliceblue;
+    }
+.box-img{
+    height:300px;
+}
+.heading{
+    text-align: center;
+padding:3px;
+font-size: 30px;
+font-weight: bolder;
+}
+.para{
+    font-size: 15px;
+    color:blue;
+    padding:5px;
+}
